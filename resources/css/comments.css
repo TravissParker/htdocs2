@@ -1,4 +1,4 @@
-.comment-wrap {
+#comment-wrap {
     max-width:60%;
     margin: auto;
     padding-top: 5%;
@@ -7,12 +7,12 @@
 .post {
     border: solid black 1px;
     background-color: powderblue;
-    margin-bottom: 10px; /*These two lines need to be relative*/
+    margin-bottom: 10px;
     margin-top: 20px;
 }
 
 .date-from div {
-    display: inline-block;  /*This to make date and from float to each other.*/
+    display: inline-block;
 }
 
 .user-pic-fig {

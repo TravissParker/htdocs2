@@ -1,16 +1,16 @@
-.page-wrap {
+#page-wrap {
     height: 100%;
 }
 
-.page-wrap a:link {
+#page-wrap a:link {
     color: blue;
 }
 
-.page-wrap a:visited {
+#page-wrap a:visited {
     color: darkred;
 }
 
-.page-wrap a:hover {
+#page-wrap a:hover {
     color: navy;
     text-decoration: none;
 }

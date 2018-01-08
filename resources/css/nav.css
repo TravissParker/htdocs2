@@ -10,7 +10,6 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    /*font-family: Tahoma;*/
     font-family: inherit;
     z-index: 1;
 }
@@ -23,11 +22,11 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover:not(.current-page)  {
+nav a:hover:not(#current-page)  {
     background-color: #111;
 }
 
-nav .current-page {
+nav #current-page {
     background-color: antiquewhite;
     color: #333;
 }

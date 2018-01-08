@@ -1,4 +1,4 @@
-.page-wrap {
+#page-wrap {
     padding-bottom: 400px;
 }
 
@@ -66,7 +66,6 @@ header {
     border-radius: 50%; /*Makes it circular*/
     float: left;
 }
-/*Don't know why this doesn't override other*/
 #calendar .other-month {
     background: #20af5a;
     color: #666;
@@ -99,7 +98,7 @@ header {
         width: auto;
     }
 
-    .page-wrap {
+    #page-wrap {
         padding: 0;
     }
 }

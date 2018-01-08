@@ -13,18 +13,17 @@
 </head>
 
 <body>
-<!-- HTML skeleton for the nav-bar-->
 <div id="top-wrap">
   <nav>
       <ul>
         <li><a href="index.html">Index</a></li>
         <li><a href="calendar.html">Calendar</a></li>
-        <li><a class="current-page" href="recipes-meatballs.html">Meatballs</a></li>
+        <li><a id="current-page" href="recipes-meatballs.html">Meatballs</a></li>
         <li><a href="recipes-pancakes.html">Pancakes</a></li>
       </ul>
 
-    <div class="dropdown">  <button class="dropbtn">Navigation</button>
-      <div class="dropdown-content">
+    <div id="dropdown">  <button id="dropbtn">Navigation</button>
+      <div id="dropdown-content">
         <a href="index.html">Index</a>
         <a href="calendar.html">Calendar</a>
         <a href="recipes-meatballs.html">Meatballs</a>
@@ -34,14 +33,14 @@
   </nav>
 </div>
 
-<div class="page-wrap">
-  <div class="text-wrap">
+<div id="page-wrap">
+  <main>
     <header><h2>Meatballs</h2></header>
   <figure class="figure-dish">
     <img src="resources/images/img_meatballs.jpg" alt="A spicy meatball" />
     <figcaption>Meatballs with spice!</figcaption>
   </figure>
-  <section class="description"><p>A delicious classic of Scandinavia: meatballs are right monday through sunday.</p></section>
+  <section id="description"><p>A delicious classic of Scandinavia: meatballs are right monday through sunday.</p></section>
     <section>
       <h3>Ingredients</h3>
       <ul>
@@ -63,10 +62,10 @@
         <li>Bake uncovered 18 to 22 minutes or until no longer pink in center.</li>
       </ol>
   </section>
-  </div>
+  </main>
 
 <!--<div id="comment-section-outer">-->
-  <div class="comment-wrap">
+  <div id="comment-wrap">
     <h3>Comments</h3>
     <div class="post">
       <div class="date-from">
@@ -101,10 +100,7 @@
       </div>
     </div>
   </div>
-<!--</div>-->
 </div>
-<!--Use post class with this one make an incommon class-->
 
-<footer></footer> <!-- a footer should contain information about its containing element-->
 </body>
 </html>
