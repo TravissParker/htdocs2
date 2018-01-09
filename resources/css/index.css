@@ -50,8 +50,13 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
-   header h1, h2 {
-        font-size: 1.1em;
+   header h1 {
+       font-size: 1.6rem;
+       font-weight: bolder;
+   }
+
+   h2 {
+        font-size: 1.1rem;
         font-weight: bolder;
     }
 }

@@ -57,10 +57,10 @@ ul {
         width: 85%;
     }
 
-    h3 {
+    h3{
         font-size: 1.1em;
         font-weight: bold;
-        padding-top: 8%; /*Is this ok responsively*/
+        padding-top: 8%;
         padding-bottom: 4%;
     }
 }
