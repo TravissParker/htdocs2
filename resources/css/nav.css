@@ -16,10 +16,13 @@ nav {
 
 nav a {
     display: inline-block;
-    color: whitesmoke;
     padding: 14px 16px;
     font-size: 1em;
     text-decoration: none;
+}
+
+nav a:not(#current-page) {
+    color: whitesmoke;
 }
 
 nav a:hover:not(#current-page)  {
