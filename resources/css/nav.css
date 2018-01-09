@@ -29,6 +29,7 @@ nav a:hover:not(#current-page)  {
 nav #current-page {
     background-color: antiquewhite;
     color: #333;
+    text-decoration: underline;
 }
 
 nav li {
